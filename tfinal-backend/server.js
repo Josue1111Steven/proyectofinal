@@ -70,7 +70,7 @@ app.get('/login', (req, res) => {
   if (req.session && req.session.authenticated) {
     return res.redirect('/');
   }
-
+// SECCION HTML, SE PODRIA COLOCAR EN OTRO DOCUMENTO!!!
   res.send(`
     <!DOCTYPE html>
     <html lang="es">
