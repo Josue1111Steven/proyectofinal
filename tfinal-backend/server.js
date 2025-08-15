@@ -36,7 +36,7 @@ let productos = [
   { id: '5', nombre: 'Impresora', precio: 120 }
 ];
 
-// Estadísticas del servidor
+
 let stats = {
   startTime: new Date(),
   requests: 0,
