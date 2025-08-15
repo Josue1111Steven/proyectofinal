@@ -45,7 +45,10 @@ JOSUE/
     ```sh
     npm install
     ```
-
+3. Instala la dependencia para el inicio de sesion para el lado del backend
+    ```sh
+    npm install
+    ```
 ### Frontend
 
 1. Abre otra terminal y navega a la carpeta del frontend:
