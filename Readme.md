@@ -145,6 +145,7 @@ JOSUE/
 - Si algún paquete falta, ejecuta `npm install` en la carpeta correspondiente.
 - Si un puerto está ocupado, puedes cambiarlo en el código fuente (`server.js` o configuración de Vite).
 - Si los inputs del login sobresalen, revisa los estilos CSS y asegúrate de que tengan `width: 100%` y `box-sizing: border-box`.
+- Desconocemos totalmente la razon del porque la dependencia de `express-session` no se llegaron a instalar con el `npm install`, por eso se opto por hacerlo aparte y ver si funcionaba.
 
 ---
 
