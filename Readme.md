@@ -149,4 +149,3 @@ JOSUE/
 
 ---
 
-¡Listo! Ya puedes trabajar y probar tu proyecto fullstack
