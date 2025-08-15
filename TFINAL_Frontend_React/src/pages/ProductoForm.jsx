@@ -19,7 +19,24 @@ export default function ProductoForm({ editMode = false }) {
     }
   }, [editMode, id])
 
-
+ // Función para formatear el precio mientras se escribe
+  const handlePrecioChange = (e) => {
+    let value = e.target.value
+    
+    // Permitir solo números, puntos y comas
+    value = value.replace(/[^0-9.,]/g, '')
+    
+    // Reemplazar comas con puntos para formato estándar
+    value = value.replace(/,/g, '.')
+    
+    // Permitir solo un punto decimal
+    const parts = value.split('.')
+    if (parts.length > 2) {
+      value = parts[0] + '.' + parts.slice(1).join('')
+    }
+    
+    setForm({...form, precio: value})
+  }
   const validateForm = () => {
     if (!form.nombre.trim()) {
       setError('El nombre es requerido')
