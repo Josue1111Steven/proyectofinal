@@ -3,6 +3,14 @@
 Este proyecto incluye un **backend** en Node.js + Express y un **frontend** en React para la gestión de productos y un panel de administración protegido.
 
 ---
+## Vista general
+
+### Frontend
+![Frontend](./frontend.png)
+
+### Backend
+![Backend](./backend.png)
+
 
 ## Requisitos
 
