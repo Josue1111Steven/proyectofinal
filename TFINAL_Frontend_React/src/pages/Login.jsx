@@ -50,23 +50,23 @@ export default function Login() {
     }
   }
 
-  // Estilos corregidos
+  
   const cardStyle = {
     maxWidth: 420, 
     margin: '2rem auto',
-    padding: '2rem', // Agregamos padding interno
-    boxSizing: 'border-box' // Importante para el tamaño correcto
+    padding: '2rem', // padding interno
+    boxSizing: 'border-box' 
   }
 
   const inputStyle = {
-    width: '100%', // Ancho completo del contenedor
-    maxWidth: '100%', // No exceder el contenedor
-    boxSizing: 'border-box', // Incluir padding y border en el ancho
-    margin: 0 // Remover márgenes que puedan causar overflow
+    width: '100%', 
+    maxWidth: '100%', 
+    boxSizing: 'border-box', 
+    margin: 0 
   }
 
   const buttonStyle = {
-    width: '100%', // Botón de ancho completo
+    width: '100%', 
     boxSizing: 'border-box'
   }
 
