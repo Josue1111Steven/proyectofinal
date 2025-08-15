@@ -30,7 +30,10 @@ const ADMIN_CREDENTIALS = {
 // Datos en memoria
 let productos = [
   { id: '1', nombre: 'Teclado', precio: 25 },
-  { id: '2', nombre: 'Mouse', precio: 15 }
+  { id: '2', nombre: 'Mouse', precio: 15 },
+  { id: '3', nombre: 'Monitor', precio: 150 },
+  { id: '4', nombre: 'Laptop', precio: 800 },
+  { id: '5', nombre: 'Impresora', precio: 120 }
 ];
 
 // Estadísticas del servidor
