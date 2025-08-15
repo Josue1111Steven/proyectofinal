@@ -47,7 +47,7 @@ JOSUE/
     ```
 3. Instala la dependencia para el inicio de sesion para el lado del backend
     ```sh
-    npm install
+    npm install express-session
     ```
 ### Frontend
 
