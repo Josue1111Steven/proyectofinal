@@ -128,7 +128,14 @@ export default function Login() {
             </p>
           )}
           
-          
+        <p className="status" style={{
+            marginTop: 16, 
+            textAlign: 'center',
+            fontSize: '0.85rem',
+            opacity: 0.7
+          }}>
+            Demo: admin@demo.com / admin
+          </p>  
         </form>
       </div>
     </div>
