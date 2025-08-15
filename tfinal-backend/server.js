@@ -52,7 +52,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// Middleware de autenticación para el panel
 function requireAuth(req, res, next) {
   if (req.session && req.session.authenticated) {
     return next();
@@ -61,7 +60,6 @@ function requireAuth(req, res, next) {
   }
 }
 
-// Función para obtener el siguiente ID secuencial
 function getNextId() {
   const ids = productos.map(p => parseInt(p.id)).filter(id => !isNaN(id));
   return Math.max(...ids, 0) + 1;
